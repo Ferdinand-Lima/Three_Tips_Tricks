@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2019 (64 Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="50px" height="50px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 50 50"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <font id="FontID1" horiz-adv-x="717" font-variant="normal" style="fill-rule:nonzero" font-style="normal" font-weight="400">
+	<font-face 
+		font-family="Montserrat">
+		<font-face-src>
+			<font-face-name name="Montserrat Regular"/>
+		</font-face-src>
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="}" horiz-adv-x="334" d="M240.064 304.084c-28.0337,0 -45.0119,15.004 -45.0119,50.9909l0 254.052c0,89.0085 -47.0425,133.005 -136.051,133.005l-38.0176 0 0 -59.0006 27.0184 0c52.0062,0 76.0352,-28.9926 76.0352,-80.04l0 -247.001c0,-50.032 15.004,-71.015 46.9861,-82.0142 -31.9821,-10.9992 -46.9861,-32.0386 -46.9861,-82.0142l0 -247.058c0,-51.0473 -24.0289,-80.04 -76.0352,-80.04l-27.0184 0 0 -59.0006 38.0176 0c89.0085,0 136.051,43.9966 136.051,133.005l0 254.052c0,36.0434 16.9782,51.0473 45.0119,51.0473l34.0128 0 0 60.0159 -34.0128 0z"/>
+  </font>
+  <font id="FontID0" horiz-adv-x="806" font-variant="normal" style="fill-rule:nonzero" font-style="normal" font-weight="900">
+	<font-face 
+		font-family="Montserrat Black">
+		<font-face-src>
+			<font-face-name name="Montserrat Black"/>
+		</font-face-src>
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="3" horiz-adv-x="613" d="M421.959 422.966l129.983 131.997 0 144.945 -521.946 0 0 -177.962 249.967 0 -103.008 -105.022 0 -144.945 93.0093 0c59.9921,0 83.0107,-17.9832 83.0107,-47.9793 0,-36.0384 -37.9806,-54.0217 -90.9952,-54.0217 -58.985,0 -127.969,15.9691 -187.961,51.0005l-79.9895 -174.006c74.9542,-41.9369 179.976,-62.9414 275.935,-62.9414 223.999,0 319.958,119.984 319.958,239.968 0,96.9657 -57.978,171.92 -167.964,198.967z"/>
+   <glyph unicode="T" horiz-adv-x="654" d="M209.072 0l236.04 0 0 517.183 205.126 0 0 183.044 -646.197 0 0 -183.044 205.032 0 0 -517.183z"/>
+   <glyph unicode="c" horiz-adv-x="614" d="M343.964 -10.0001c133.02,0 233.02,61.0381 268.964,161.982l-175.001 86.0383c-22.9247,-51.0381 -55.9438,-72.0759 -95.0006,-72.0759 -50.9437,0 -92.9251,36.038 -92.9251,108.02 0,71.0382 41.9814,106.982 92.9251,106.982 39.0569,0 72.0759,-20.9435 95.0006,-71.9816l175.001 86.0383c-35.9436,100.944 -135.944,161.982 -268.964,161.982 -188.963,0 -322.927,-116.982 -322.927,-283.021 0,-166.982 133.963,-283.964 322.927,-283.964z"/>
+   <glyph unicode="i" horiz-adv-x="326" d="M163.029 591.228c83.065,0 136.061,49.9894 136.061,119.054 0,65.0238 -52.9962,110.973 -136.061,110.973 -82.9711,0 -136.061,-49.9894 -136.061,-115.013 0,-65.0238 53.0902,-115.013 136.061,-115.013zm-113.04 -591.228l226.08 0 0 547.158 -226.08 0 0 -547.158z"/>
+   <glyph unicode="k" horiz-adv-x="712" d="M445.003 0l272.926 0 -243.964 310.002 225.945 236.983 -266.983 0 -156.982 -159.058 0 353.965 -225.945 0 0 -741.891 225.945 0 0 128.963 36.038 39.0569 133.02 -168.02z"/>
+   <glyph unicode="p" horiz-adv-x="700" d="M415.137 557.212c-68.0306,0 -116.986,-18.0413 -150.062,-55.0635l0 45.0092 -215.086 0 0 -741.196 226.08 0 0 231.06c33.0757,-32.0421 79.0245,-46.9825 139.068,-46.9825 143.015,0 264.136,107.026 264.136,283.022 0,176.09 -121.121,284.15 -264.136,284.15zm-54.0299 -391.176c-49.9894,0 -88.9848,35.9886 -88.9848,107.026 0,71.0375 38.9955,108.06 88.9848,108.06 50.0833,0 89.0788,-37.0222 89.0788,-108.06 0,-71.0375 -38.9955,-107.026 -89.0788,-107.026z"/>
+   <glyph unicode="r" horiz-adv-x="455" d="M265.002 487.928l0 59.057 -215.001 0 0 -546.985 225.945 0 0 243.02c0,86.9817 48.0192,117.925 116.038,117.925 15.9435,0 30.0002,-0.943402 50.0003,-3.96229l0 200.001c-76.0382,0 -136.982,-23.019 -176.982,-69.057z"/>
+   <glyph unicode="s" horiz-adv-x="565" d="M264.136 -9.96029c189.997,0 283.022,85.9779 283.022,185.017 0,219.126 -314.031,145.082 -314.031,202.119 0,12.9672 15.974,25.9343 73.9504,25.9343 46.0428,0 102.046,-8.92667 158.049,-40.0291l62.0169 149.122c-57.9764,29.9748 -143.015,45.0092 -223.073,45.0092 -183.983,0 -280.016,-84.0047 -280.016,-187.084 0,-219.032 315.065,-144.048 315.065,-200.051 0,-16.068 -15.0344,-26.0283 -70.0039,-26.0283 -65.0238,0 -139.068,18.0413 -191.125,49.0497l-62.0169 -149.122c56.0971,-31.9481 154.103,-53.9359 248.161,-53.9359z"/>
+  </font>
+  <style type="text/css">
+   <![CDATA[
+    @font-face { font-family:"Montserrat";font-variant:normal;font-style:normal;font-weight:normal;src:url("#FontID1") format(svg)}
+    @font-face { font-family:"Montserrat Black";font-variant:normal;font-style:normal;font-weight:900;src:url("#FontID0") format(svg)}
+    .fil0 {fill:#7159C1}
+    .fil1 {fill:white}
+    .fnt1 {font-weight:900;font-size:12.52px;font-family:'Montserrat Black'}
+    .fnt0 {font-weight:900;font-size:12.57px;font-family:'Montserrat Black'}
+    .fnt2 {font-weight:900;font-size:16.42px;font-family:'Montserrat Black'}
+    .fnt3 {font-weight:normal;font-size:20.94px;font-family:'Montserrat'}
+   ]]>
+  </style>
+ </defs>
+ <g id="Camada_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_931116160">
+   <g>
+    <g transform="matrix(1.02365 0 0 1 -9.26506 -1.49842)">
+     <text x="25" y="25"  class="fil0 fnt0">T</text>
+    </g>
+    <g transform="matrix(1.02365 0 0 1 -1.24381 -1.49842)">
+     <text x="25" y="25"  class="fil0 fnt0">i</text>
+    </g>
+    <g transform="matrix(1.02365 0 0 1 2.68375 -1.49842)">
+     <text x="25" y="25"  class="fil0 fnt0">p</text>
+    </g>
+    <g transform="matrix(1.02365 0 0 1 10.8096 -1.49842)">
+     <text x="25" y="25"  class="fil0 fnt0">s</text>
+    </g>
+   </g>
+   <g transform="matrix(0.949075 0 0 1 -18.0795 11.1185)">
+    <text x="25" y="25"  class="fil0 fnt1">T</text>
+   </g>
+   <g transform="matrix(0.949075 0 0 1 -10.7471 11.1185)">
+    <text x="25" y="25"  class="fil0 fnt1">r</text>
+   </g>
+   <g transform="matrix(0.949075 0 0 1 -5.64909 11.1185)">
+    <text x="25" y="25"  class="fil0 fnt1">i</text>
+   </g>
+   <g transform="matrix(0.949075 0 0 1 -2.09612 11.1185)">
+    <text x="25" y="25"  class="fil0 fnt1">c</text>
+   </g>
+   <g transform="matrix(0.949075 0 0 1 4.89163 11.1185)">
+    <text x="25" y="25"  class="fil0 fnt1">k</text>
+   </g>
+   <g transform="matrix(0.949075 0 0 1 12.4988 11.1185)">
+    <text x="25" y="25"  class="fil0 fnt1">s</text>
+   </g>
+   <g transform="matrix(1.013 0 0 1 -19.2689 1.26134)">
+    <text x="25" y="25"  class="fil0 fnt2">3</text>
+   </g>
+   <g transform="matrix(1.02365 0 0 1 18.3231 6.93632)">
+    <text x="25" y="25"  class="fil1 fnt3">}</text>
+   </g>
+   <g transform="matrix(-1.02365 -0 0 1 31.4651 6.93632)">
+    <text x="25" y="25"  class="fil1 fnt3">}</text>
+   </g>
+  </g>
+ </g>
+</svg>

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Como recriar uma animação  da Netflix em CSS</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:700,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/themes/prism.min.css"/>
+  
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link rel="stylesheet" type="text/css" href="../css/post.css">
+</head>
+<body>
+<div class="container">
+	<nav>
+	 	<a href="#"><img class="logo_topo" src="../img/logo_topo.svg" alt="Logo 3 tips and tricks"></a>
+	 	<ul class="nav_menu">
+	 		<li><a href="../index.html">Home</a></li>
+	 		<li><a href="#">Artigos</a></li>
+	 		<li><a href="#">Videos</a></li>
+	 		<li><a href="#">Sobre nós</a></li>
+	 	</ul>
+	 </nav>
+	 <header>
+	 	<div class="header_topo">
+	 		<div>
+		 		<h1>Como recriar uma animação  da Netflix em CSS</h1>
+	 		</div>
+	 	</div>
+	 </header>
+
+	 <main>
+	 	<section class="post">
+	 		<p>
+	 			O design da página de navegação da Netflix permaneceu bastante semelhante há alguns anos. Um componente principal é o controle deslizante de visualização que permite aos usuários rolar o conteúdo e passar o mouse nos itens para ver uma visualização.
+	 		</p>
+	 		<p>
+	 			Uma característica exclusiva da interface do usuário é seu comportamento de foco instantâneo. Quando uma visualização de programa se expande ao passar o mouse, as cartas ao lado são empurradas para fora para que não se sobreponham. 
+	 		</p>
+	 		<p>
+	 			Como isso:
+	 		</p>
+	 		<img src="images/netflix.gif">
+
+	 		<p>
+	 			Podemos fazer isso em CSS! Sem JavaScript. Sem dependências. CSS simples. Mas antes de entrar em qualquer código, aqui está exatamente o que queremos fazer:
+	 		</p>
+	 		<ol>
+	 			<li>O cartão que passa o mouse deve se expandir, mantendo sua proporção.</li>
+	 			<li>Quando um cartão é pairado, os outros cartões não devem mudar de tamanho e se mover para fora para que não se sobreponham.</li>
+	 			<li>Todos os cartões devem permanecer centralizados verticalmente um com o outro.</li>
+	 		</ol>
+	 		<p>
+	 			Parece bom? Agora vamos entrar no código.
+	 		</p>
+	 		<h3>HTML e elementos flexíveis</h3>
+	 		<p>
+	 			Vamos configurar uma linha de imagens que representam as visualizações de vídeo da Netflix. Isso inclui:
+	 		</p>
+	 		<ul>
+	 			<li>
+	 				Um <code>.container</code> elemento pai com vários <code>.item</code> elementos dentro
+	 			</li>
+	 			<li>
+	 				Cada <code>.item</code> elemento que consiste em uma imagem envolvida em uma marca de âncora
+	 			</li>
+	 			<li>
+	 				Transformando <code>.container</code> em um contêiner flexível que alinha os itens em uma linha
+	 			</li>
+	 			<li>
+	 				Definir o comportamento flexível da <code>.item</code> classe para que ocupem o mesmo espaço na linha
+	 			</li>
+	 		</ul>
+	 		<div class="codepen_container">
+		 			<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-user="RadDog25" data-slug-hash="eYNMawe" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Netflix Style Hover Effect 1">
+				  <span>See the Pen <a href="https://codepen.io/RadDog25/pen/eYNMawe">
+				  Netflix Style Hover Effect 1</a> by chris geel (<a href="https://codepen.io/RadDog25">@RadDog25</a>)
+				  on <a href="https://codepen.io">CodePen</a>.</span>
+	            </p>
+	            
+	 		</div>
+
+         <h3>Expandindo um item ao passar o mouse</h3>
+         <p>
+         	Nosso próximo passo é fazer com que um item seja expandido quando passar o mouse. Poderíamos fazer isso animando os elementos <code>width</code>, mas isso afetaria o fluxo do documento e reduziria os irmãos do item pairado - além disso, animar a <code>width</code> propriedade é conhecido por ser fraco em termos de desempenho em alguns casos.
+         </p>
+         <p>
+         	Para evitar apertar o irmão do item pairado, vamos animar a <code>transform</code> propriedade - especificamente, sua <code>scale()</code> função -. Isso não afetará o fluxo de documentos da mesma maneira <code>width</code>.
+         </p>
+         <div class="codepen_container">
+         	<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-user="RadDog25" data-slug-hash="LYVdooX" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Netflix Style Hover Effect 2">
+			  <span>See the Pen <a href="https://codepen.io/RadDog25/pen/LYVdooX">
+			  Netflix Style Hover Effect 2</a> by chris geel (<a href="https://codepen.io/RadDog25">@RadDog25</a>)
+			  on <a href="https://codepen.io">CodePen</a>.</span>
+			</p>
+         
+         </div>
+         <h3>Movendo irmãos para fora</h3>
+         <p>
+         	Fazer com que os irmãos de um item pairado se afastem do item pairado é a parte complicada de tudo isso. Um recurso CSS que temos à nossa disposição é o combinador geral de irmãos . Isso permite selecionar todos os itens irmãos posicionados após o item pairado.
+         </p>
+         <p>
+         	Voltaremos à  função <code>transform</code> da propriedade <code>translateX()</code> para mudar as coisas. Novamente, a animação <code>transform</code> é muito melhor do que outras propriedades que afetam o fluxo de documentos, como margens e preenchimento.
+         </p>
+         <p>
+         	Como configuramos um item para aumentar em 150% o foco instantâneo, a tradução deve ser definida em 25%. Isso é metade do espaço adicional que está sendo ocupado pelo item pairado.
+         </p>
+
+<pre>
+   <code class="language-css, css">
+	.item:hover ~ .item {
+       transform: translateX(25%);
+     }  
+  </code>
+</pre>
+
+       <p>
+       	Isso lida com mover as coisas para a direita, mas como podemos traduzir os itens à esquerda ? Como o combinador geral de irmãos se aplica apenas a irmãos posicionados após um determinado seletor (sem retroceder), precisaremos de outra abordagem.
+       </p>
+       <p>
+       	Uma maneira é adicionar uma regra de focalização adicional no próprio contêiner pai. Aqui está o plano:
+       </p>
+       <ul>
+       	<li>
+       		Ao passar o mouse pelo contêiner pai, mova todos os itens dentro desse contêiner para a esquerda.
+       	</li>
+       	<li>
+       		Use o combinador geral de irmãos para fazer com que os itens posicionados após o item pairado sejam movidos para a direita.
+       	</li>
+       	<li>
+       		Seja super específico para que um item pairado não seja traduzido como o restante dos itens.
+       	</li>
+       </ul>
+
+       <p>
+       	Estamos assumindo que seu documento usa o modo de escrita da esquerda para a direita. Se você deseja usar esse efeito em um contexto da direita para a esquerda, precisará definir todos os itens dentro do contêiner externo pairado para mover para a direita e usar o combinador geral de irmãos para mover todos os itens selecionados para a esquerda .
+       </p>
+       <div class="codepen_container">
+       	 <p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="html,result" data-user="RadDog25" data-slug-hash="RwPjBag" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Netflix Style Hover Effect Final">
+		  <span>See the Pen <a href="https://codepen.io/RadDog25/pen/RwPjBag">
+		  Netflix Style Hover Effect Final</a> by chris geel (<a href="https://codepen.io/RadDog25">@RadDog25</a>)
+		  on <a href="https://codepen.io">CodePen</a>.</span>
+		</p>
+       </div>
+       <p>
+       	Um pequeno detalhe a ser observado: esta versão final está usando <code>:focuse :focus-within</code> pseudo-classes para suportar a navegação do teclado. O exemplo da Netflix não está usando, mas acho que é um toque agradável de acessibilidade.
+       </p>
+       <div class="line"></div>
+       <p>
+       	Lá nós temos! Sim, poderíamos ter usado ouvintes de eventos JavaScript em vez de regras de foco CSS., E isso poderia ser melhor para manutenção e legibilidade. Mas às vezes é divertido ver até onde o CSS pode nos levar!
+       </p>
+       <p>
+       	Tutorial feito por <a href="https://css-tricks.com">Css-tricks</a>
+       </p>
+       <p>
+       	Confira o post original  <a href="https://css-tricks.com/how-to-re-create-a-nifty-netflix-animation-in-css/">aqui.</a>
+       </p>
+	 	</section>
+	 </main>
+<a href="https://css-tricks.com/how-to-re-create-a-nifty-netflix-animation-in-css/"></a>
+	  <!-- <div class="last_posts">
+	 	<div class="tumbl_post">
+	 		<h2>Last Post</h2>
+	 		<img src="">
+	 	</div>
+	 </div> -->
+</div>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/prism.min.js"></script>
+</body>
+</html>
