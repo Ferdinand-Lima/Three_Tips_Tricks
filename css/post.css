@@ -29,6 +29,7 @@
 	line-height: 25px;
 }
 .post img{
+	display:block;
 	margin: 20px 0px;
 	border-radius: 10px;
 }
