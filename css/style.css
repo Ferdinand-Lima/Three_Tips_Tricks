@@ -140,7 +140,7 @@ header:before{
 	background-color: #7159C1;
 	height: 3px;
 }
-.post img{
+.post img.image{
 	float: left;
 }
 .post span.data{
